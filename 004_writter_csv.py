@@ -20,7 +20,7 @@ def fake_employee_id():
 
 
 def fake_timestamp():
-    now = datetime.now
+    now = datetime.now()
     now = now.replace(hour=random.randint(7, 18), minute=random.randint(0, 59))
     ts = datetime.timestamp(now)
     return int(ts)
