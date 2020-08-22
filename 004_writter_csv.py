@@ -3,7 +3,7 @@ import random
 from datetime import datetime
 
 #CONSTANT
-FILENAME = "writting_csv.csv"
+FILENAME = "tmp/writting_csv.csv"
 COLUMN_NAMES = ['employee_id', 'entered_at', 'enter_for']
 MAX_NUMBER_LOGS = 100
 
